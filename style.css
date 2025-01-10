@@ -1,17 +1,13 @@
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+  
 }
 
-.roboto-normal> {
-  font-family: "Roboto", serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 
 /*Common Style*/
 .section-heading{
@@ -22,7 +18,7 @@ line-height:38px;
 }
 
 .primary-btn{
-border-radius: 8px;
+border-radius: 6px;
 font-weight: 600;
 padding: 14px 30px;
 transition: .3s;
@@ -33,9 +29,9 @@ transition: .3s;
 
 .para-description{
 color: rgba(14, 14, 14, 0.7);
-font-size: 16px;
+font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 19px;
 letter-spacing: 0%;
 }
 
@@ -292,3 +288,126 @@ table .material-symbols-outlined{
   margin-top: 5px;
 }
 
+/*Recent News Section Style*/
+
+.recent{
+  width: 80%;
+  margin: auto;
+}
+.recent-1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+  align-items: start;
+  gap: 25px;
+  background-color: rgb(243, 246, 248);
+  border-radius: 8px;
+  margin: 25px 0;
+}
+
+.satellite{
+  width: 326px;
+  border-radius: 8px;
+
+}
+.recent-text h3{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.recent-text img{
+  width: 107px;
+}
+
+.recent-text span{
+  margin-left: 5px;
+}
+.recent-text p{
+  margin-bottom: 10px;
+}
+.recent-text button{
+  font-size: 12px;
+  margin: auto;
+  padding: 8px 16px;
+  display: block;
+  display: inline-block;
+  background-color: rgb(103, 216, 122);
+  border: none;
+  margin-top: 20px;
+}
+
+/*Donate Today Section*/
+.donate{
+  width: 80%;
+  margin: auto;
+  margin-top: 64px;
+  padding: 30px;
+}
+
+.donate h2{
+  text-align: center;
+  
+}
+.donate p{
+  text-align: center;
+  padding: 10px;
+}
+
+.donation-options{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+.donation-options button{
+  color: rgba(14, 14, 14, 0.8);
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+text-align: center;
+padding: 18px 25px;
+border-radius: 10px;
+border: none;
+}
+
+.active{
+  background-color: rgb(198, 228, 214);
+}
+.donate form{
+  width: 65%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.donate form input{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(237, 231, 231);
+  border: none;
+  margin-bottom: 10px;
+
+color: rgba(14, 14, 14, 0.3);
+font-size: 19px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+border-radius: 5px;
+}
+
+.submit-now{
+  font-size: 12px;
+  margin: auto;
+  padding: 8px 16px;
+  display: block;
+  background-color: rgb(103, 216, 122);
+  border: none;
+  text-align: center;
+}
+
+/*Subscribe Newsletter Section*/
