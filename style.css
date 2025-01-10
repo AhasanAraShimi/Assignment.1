@@ -411,3 +411,10 @@ border-radius: 5px;
 }
 
 /*Subscribe Newsletter Section*/
+.subscriber{
+  width: 80%;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  height: 316px;
+  margin: auto;
+}
