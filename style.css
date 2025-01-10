@@ -52,30 +52,26 @@ border: 1px solid rgb(0, 106, 80);
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
 }
 
 .banner-container{
-  max-width: 70%px;
-  max-height: 55vh;
+  max-width: 80%;
+  max-height: 70vh;
   border-radius: 24px;
   background: rgb(198, 228, 214);
   display: flex;
-}
-
-.banner-text{
-  width: 35%;
+  padding: 60px;
   margin: auto;
-}
+  gap: 51px;
 
+}
 .banner-text p{
 color: rgba(14, 14, 14, 0.5);
-font-family: Fira Sans;
 font-size: 19px;
 font-weight: 500;
-line-height: 23px;
-letter-spacing: 0%;
 text-align: left;
+margin-bottom: 20px;
 }
 
 .banner-text h1{
@@ -84,17 +80,21 @@ font-family: Fira Sans;
 font-size: 44px;
 font-weight: 700;
 line-height: 53px;
+margin-bottom: 20px;
 }
 
+
 .banner-image{
-  max-width: 40%;
- padding: 80px;
+  width: 45%;
+  background-image: url(assets/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.banner-image img{
-  max-width: 100%;
-}
+
 .banner-btn {
 background: rgb(0, 106, 80);
 color: white;
 border: none;
 }
+
+/*Pillar's of Bangladesh*/
