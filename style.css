@@ -108,6 +108,7 @@ border: none;
 }
 
 /*Pillar's of Bangladesh*/
+
 .pillars-of-bd{
   max-width: 80%;
   margin: auto;
@@ -145,17 +146,23 @@ margin-bottom: 20px;
 
 
 /*Vishion Section Style*/
-.vishion .card-box-1{
+.vishion{
+  width: 80%;
+padding: 20px;
+}
+
+
+.vision-box-1{
   width: 390px;
   height: 325px;
   padding:40px ;
-  background-color: rgba(84, 144, 245, 0.2);
- margin-right: 20px;
- border-radius: 10px;
- border: none;
+  background-color: rgba(120, 155, 215, 0.2);
+  margin-right: 25px;
+  border-radius: 10px;
+  border: none;
 }
 
-.card-box-1 button{
+.vision-box-1 button{
   font-size: 12px;
    margin: auto;
    padding: 8px 16px;
@@ -167,18 +174,18 @@ margin-bottom: 20px;
  
 }
 
-.card-box-2{
+.vision-box-2{
   width: 390px;
   height: 325px;
   padding:40px ;
-  background-color: rgb(247, 235, 207);
-  margin-right: 20px;
+  background-color: rgb(232, 206, 150);
+  margin-right: 25px;
   border-radius: 10px;
   border: none;
 }
 
 
-.card-box-2 button{
+.vision-box-2 button{
   font-size: 12px;
    margin: auto;
    padding: 8px 16px;
@@ -189,26 +196,56 @@ margin-bottom: 20px;
    border: none;
 }
 
-.card-box-3{
+.vision-box-3{
   width: 390px;
   height: 325px;
   padding:40px ;
-  background-color: rgb(230, 202, 137);
+  background-color: rgb(148, 255, 166);
   margin-right: 20px;
   border-radius: 10px;
   border: none;
 }
 
-.card-box-3 button{
+.vision-box-3 button{
   font-size: 12px;
    margin: auto;
    padding: 8px 16px;
    display: block;
    display: inline-block;
    margin-top: 30px;
-   background-color: rgb(134, 207, 146);
+   background-color: rgb(68, 155, 82);
    border: none;
 }
 
-/*Quote of Dr.Y*/
+/*Quote of Dr.Y section style*/
+.quotation{
+  background-color: rgb(247, 240, 240);
+
+  width: 80%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 8px;
+
+}
+
+.dr-y{
+  width: 100%;
+  margin: auto;
+  background-image: url(assets/quote-bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+ 
+}
+.dr-y p{
+  padding-top: 40px;
+}
+.dr-y h5{
+  Font-weight: 600;
+  Font-size: 16px;
+  margin-top: 10px;
+}
+
 
