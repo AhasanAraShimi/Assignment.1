@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .roboto-normal> {
   font-family: "Roboto", serif;
   font-optical-sizing: auto;
@@ -7,11 +13,7 @@
     "wdth" 100;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 /*Common Style*/
 .section-heading{
