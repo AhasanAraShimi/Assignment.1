@@ -34,11 +34,20 @@ transition: .3s;
   background-color: rgb(36, 129, 51);
 }
 
+.para-description{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
 /*Header section style*/
 .navbar{
 display: flex;
 justify-content: space-around;
 padding: 30px;
+align-items: center;
 }
 
 .logo-btn {
@@ -56,15 +65,20 @@ border: 1px solid rgb(0, 106, 80);
 }
 
 .banner-container{
-  max-width: 80%;
+  width: 80%;
   max-height: 70vh;
   border-radius: 24px;
   background: rgb(198, 228, 214);
   display: flex;
   padding: 60px;
   margin: auto;
-  gap: 51px;
+  margin-bottom: 64px;
+  justify-content: space-between;
 
+}
+.banner-text{
+  width: 50%;
+  margin: 51px;
 }
 .banner-text p{
 color: rgba(14, 14, 14, 0.5);
@@ -88,7 +102,7 @@ margin-bottom: 20px;
   width: 45%;
   background-image: url(assets/hero.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .banner-btn {
@@ -98,3 +112,17 @@ border: none;
 }
 
 /*Pillar's of Bangladesh*/
+.pillars-of-bd{
+  max-width: 80%;
+  background-color: chartreuse;
+  margin: auto;
+
+}
+
+card-box-1.{
+  background-color: rgb(14, 14, 14, 0.15)
+}
+.card-box-1 img{
+width: 46px;
+;
+}
