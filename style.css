@@ -1,0 +1,98 @@
+.roboto-normal> {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Common Style*/
+.section-heading{
+Font-weight: 700;
+Font-size: 32px;
+text-align: left;
+}
+.primary-btn{
+border-radius: 8px;
+font-size: 14px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+padding: 14px 30px;
+transition: .3s;
+}
+.primary-btn:hover{
+  background-color: rgb(36, 129, 51);
+}
+
+/*Header section style*/
+.navbar{
+display: flex;
+justify-content: space-around;
+padding: 30px;
+}
+
+.logo-btn {
+border: 1px solid rgb(0, 106, 80);
+
+
+}
+
+/*Banner section style*/
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.banner-container{
+  max-width: 70%px;
+  max-height: 55vh;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  display: flex;
+}
+
+.banner-text{
+  width: 35%;
+  margin: auto;
+}
+
+.banner-text p{
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 19px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.banner-text h1{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 44px;
+font-weight: 700;
+line-height: 53px;
+}
+
+.banner-image{
+  max-width: 40%;
+ padding: 80px;
+}
+.banner-image img{
+  max-width: 100%;
+}
+.banner-btn {
+background: rgb(0, 106, 80);
+color: white;
+border: none;
+}
