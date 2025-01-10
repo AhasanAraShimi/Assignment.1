@@ -146,6 +146,7 @@ margin-bottom: 20px;
 
 
 /*Vishion Section Style*/
+
 .vishion{
   width: 80%;
 padding: 20px;
@@ -228,6 +229,7 @@ padding: 20px;
   padding: 20px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 8px;
+  margin-bottom: 64px;
 
 }
 
@@ -248,4 +250,45 @@ padding: 20px;
   margin-top: 10px;
 }
 
+/*Opinion Section*/
+.opinion-section{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 64px;
+ 
+}
+.opinion-section table{
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+
+.opinion-section th{
+  border: none;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+  margin-left: 10px;
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.opinion-section td{
+  border: 1px solid black;
+  background-color:white;
+  padding-left:10px ;
+}
+
+.change{
+  width: 15%;
+  text-align: center;
+  padding: 10px 15px;
+}
+table .material-symbols-outlined{
+  font-size: 14px;
+  margin-top: 5px;
+}
 
