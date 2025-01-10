@@ -13,20 +13,17 @@
     "wdth" 100;
 }
 
-
-
 /*Common Style*/
 .section-heading{
 Font-weight: 700;
-Font-size: 32px;
+Font-size: 38px;
 text-align: left;
+line-height:38px; 
 }
+
 .primary-btn{
 border-radius: 8px;
-font-size: 14px;
 font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
 padding: 14px 30px;
 transition: .3s;
 }
@@ -52,8 +49,7 @@ align-items: center;
 
 .logo-btn {
 border: 1px solid rgb(0, 106, 80);
-
-
+font-size: 14px;
 }
 
 /*Banner section style*/
@@ -114,15 +110,105 @@ border: none;
 /*Pillar's of Bangladesh*/
 .pillars-of-bd{
   max-width: 80%;
-  background-color: chartreuse;
   margin: auto;
 
 }
-
-card-box-1.{
-  background-color: rgb(14, 14, 14, 0.15)
+.pillars-of-bd h2{
+  margin-bottom: 25px;
+  margin-top: 64px;
 }
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  padding:20px 0;
+ 
+}
+.card-box-1{
+background-color: rgb(245, 243, 243);
+width: 290px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+padding: 20px;
+border-radius: 10px;
+}
+
 .card-box-1 img{
 width: 46px;
-;
+height: 57px;
+margin-bottom: 20px;
 }
+
+.card-box-1 h4{
+  Font-weight: 700;
+  line-height:19px;
+}
+
+
+/*Vishion Section Style*/
+.vishion .card-box-1{
+  width: 390px;
+  height: 325px;
+  padding:40px ;
+  background-color: rgba(84, 144, 245, 0.2);
+ margin-right: 20px;
+ border-radius: 10px;
+ border: none;
+}
+
+.card-box-1 button{
+  font-size: 12px;
+   margin: auto;
+   padding: 8px 16px;
+   display: block;
+   display: inline-block;
+   margin-top: 30px;
+   background-color: rgb(84, 144, 245);
+   border: none;
+ 
+}
+
+.card-box-2{
+  width: 390px;
+  height: 325px;
+  padding:40px ;
+  background-color: rgb(247, 235, 207);
+  margin-right: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.card-box-2 button{
+  font-size: 12px;
+   margin: auto;
+   padding: 8px 16px;
+   display: block;
+   display: inline-block;
+   margin-top: 55px;
+   background-color: rgb(202, 152, 77);
+   border: none;
+}
+
+.card-box-3{
+  width: 390px;
+  height: 325px;
+  padding:40px ;
+  background-color: rgb(230, 202, 137);
+  margin-right: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.card-box-3 button{
+  font-size: 12px;
+   margin: auto;
+   padding: 8px 16px;
+   display: block;
+   display: inline-block;
+   margin-top: 30px;
+   background-color: rgb(134, 207, 146);
+   border: none;
+}
+
+/*Quote of Dr.Y*/
+
