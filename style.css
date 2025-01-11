@@ -25,6 +25,7 @@ transition: .3s;
 }
 .primary-btn:hover{
   background-color: rgb(36, 129, 51);
+  cursor: pointer;
 }
 
 .para-description{
@@ -417,4 +418,49 @@ border-radius: 5px;
   background: rgb(198, 228, 214);
   height: 316px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.subscribe-container{
+  width: 60%;
+  padding: 20px;
+}
+
+.subscribe-container h3{
+  color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.subscribe-container p{
+  text-align: center;
+
+}
+.subscribe-container form{
+  margin: 10px 0;
+}
+
+.subscribe-container input[type="email"]{
+width: 80%;
+padding: 10px 0;
+float: left;
+}
+
+.subscribe-container input[type="submit"]{
+  width: 19%;
+  padding: 12px 0;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  border: none;
+  float: left;
+  clear: right;  
+}
+.we-promise{
+  margin-bottom: 20px;
 }
