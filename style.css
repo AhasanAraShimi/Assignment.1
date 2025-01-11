@@ -417,11 +417,11 @@ border-radius: 5px;
   width: 80%;
   border-radius: 24px;
   background: rgb(198, 228, 214);
-  height: 316px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 400px;
  
 
 }
@@ -445,7 +445,8 @@ margin-bottom: 10px;
 
 }
 .subscribe-container form{
-  margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .subscribe-container input[type="email"]{
@@ -460,14 +461,19 @@ float: left;
   border-radius: 0px 8px 8px 0px;
   background: rgb(0, 106, 80);
   border: none;
-  float: left;
-  clear: right;  
-}
-.we-promise{
-  margin-bottom: 20px;
 }
 
+
+.subscribe-container h4{
+      text-align: center;
+    }
+
+
 /*Footer section Style*/
+footer{
+  width: 70%;
+  margin: auto;
+}
 footer h1{
   color: rgb(14, 14, 14);
 font-size: 25px;
@@ -476,12 +482,18 @@ line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
 padding: 50px;
+border-bottom: 1px solid rgba(14, 14, 14, 0.1);;
 }
 
 .icons{
   text-align: center;
+  padding: 30px;
 }
 .icons img{
   margin: 10px;
   width: 20px;
+}
+
+footer hr{
+font-weight: 500;
 }
