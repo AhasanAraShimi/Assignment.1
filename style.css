@@ -348,6 +348,7 @@ table .material-symbols-outlined{
   margin: auto;
   margin-top: 64px;
   padding: 30px;
+  margin-bottom: 80px;
 }
 
 .donate h2{
@@ -421,7 +422,8 @@ border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+ 
+
 }
 .subscribe-container{
   width: 60%;
