@@ -109,6 +109,7 @@ border: none;
 .pillars-of-bd{
   max-width: 80%;
   margin: auto;
+  margin-bottom: 50px;
 
 }
 .pillars-of-bd h2{
@@ -144,24 +145,44 @@ margin-bottom: 20px;
 
 /*Vishion Section Style*/
 
-.vishion{
+.vishion-of-Future{
   width: 80%;
-padding: 20px;
+ /* background-color: aqua; */
+ margin: auto;
+ margin-bottom: 50px;
+ 
 }
 
-
+.vishion-of-Future h2{
+  margin-bottom: 10px;
+}
+.vishion-container{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.vishion-container p{
+  margin-top: 20px;
+}
+.vishion-container h4{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 10px;
+}
 .vision-box-1{
-  width: 390px;
-  height: 325px;
+ width: 390px;
   padding:40px ;
-  background-color: rgba(120, 155, 215, 0.2);
-  margin-right: 25px;
+  background-color: rgba(50, 179, 18, 0.2);
   border-radius: 10px;
   border: none;
 }
 
 .vision-box-1 button{
-  font-size: 12px;
+   font-size: 12px;
    margin: auto;
    padding: 8px 16px;
    display: block;
@@ -177,7 +198,6 @@ padding: 20px;
   height: 325px;
   padding:40px ;
   background-color: rgb(232, 206, 150);
-  margin-right: 25px;
   border-radius: 10px;
   border: none;
 }
@@ -199,7 +219,6 @@ padding: 20px;
   height: 325px;
   padding:40px ;
   background-color: rgb(148, 255, 166);
-  margin-right: 20px;
   border-radius: 10px;
   border: none;
 }
@@ -301,6 +320,9 @@ table .material-symbols-outlined{
 .recent{
   width: 80%;
   margin: auto;
+}
+.recent h2{
+margin-bottom: 15px;
 }
 .recent-1{
   width: 100%;
